@@ -17,14 +17,18 @@ const Product = ({id}) => {
 
     const filterProduct = () => {
         const currProd = products.filter(p => p.id === Number(id))[0]
-        setProd(currProd);
+        if (currProd) {
+            setProd(currProd);
+        } else {
+            setLocation('/error')
+        }
     }
 
     useEffect(() => {
         setTimeout(() => {
             filterProduct()
             setLoad(false)
-        }, 2000)
+        }, 800)
     }, [])
 
     return (
