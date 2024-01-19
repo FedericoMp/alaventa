@@ -1,11 +1,14 @@
 const InfoBanner = () => {
     return (
         <section className="py-0 px-8 mb-2">
-            <p className="mb-2">Pasos a seguir para ofertar:</p>
-            <p className="text-gray-600 italic pl-1 text-sm">
-                <span className="pr-1"><span className="text-xs">1</span>)</span>Ver el catálogo de productos</p>
-            <p className="text-gray-600 italic pl-1 text-sm"><span className="pr-1"><span className="text-xs">2</span>)</span>Acceder para una detallada descripción</p>
-            <p className="text-gray-600 italic pl-1 text-sm"><span className="pr-1"><span className="text-xs">3</span>)</span>Consultar u ofertar dando click en "contactar"</p>
+            <h3 className="text-sm font-medium text-gray-900">Pasos a seguir para ofertar:</h3>
+            <div className="mt-2">
+                <ul role="list" className="list-decimal  pl-4 text-sm">
+                    <li className="text-gray-400"><span className="text-gray-600">Ver el catálogo de productos</span></li>
+                    <li className="text-gray-400"><span className="text-gray-600">Acceder para una detallada descripción</span></li>
+                    <li className="text-gray-400"><span className="text-gray-600">Consultar u ofertar dando click en "contactar"</span></li>
+                </ul>
+            </div>
         </section>
     )
 }

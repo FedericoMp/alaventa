@@ -65,17 +65,6 @@ const Product = ({id}) => {
                                     <p className="text-sm text-gray-600">{prod.details}</p>
                                 </div>
                             </div>
-                            {/* <div className="mt-10">
-                                <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
-                                <div className="mt-4">
-                                    <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
-                                        <li className="text-gray-400"><span className="text-gray-600">Hand cut and sewn locally</span></li>
-                                        <li className="text-gray-400"><span className="text-gray-600">Dyed with our proprietary colors</span></li>
-                                        <li className="text-gray-400"><span className="text-gray-600">Pre-washed &amp; pre-shrunk</span></li>
-                                        <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
-                                    </ul>
-                                </div>
-                            </div> */}
                         </div>
                     </> : <Loader/>
                 }
