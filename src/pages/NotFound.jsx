@@ -12,7 +12,7 @@ const NotFound = () => {
                 <p className="mb-3 max-w-fit">Puede volver al catálogo de productos haciendo click en el botón.</p>
                 <Link href="/productos" type="button" className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 flex justify-between align-middle max-w-fit">
                     <ArrowLongLeftIcon className="mr-1.5 h-5 w-5 flex-shrink-0" aria-hidden="true"/>
-                    Volver al catálogo
+                    Ir al catálogo
                 </Link>
             </div>
             <Footer/>
