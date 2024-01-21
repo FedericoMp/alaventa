@@ -51,14 +51,14 @@ const Product = ({id}) => {
                 <div className="flex-1 flex sm:flex-row flex-col justify-center items-center max-w-screen-lg mx-auto">
                     { !load && (prod && prod.imageSrc) ?
                         <>      
-                            <img src={prod.imageSrc} alt={prod.imageAlt} className="mx-auto md:h-6/12 md:w-6/12 h-full w-full object-cover object-center"/>
-                            <div className="py-0 px-8 mt-5 lg:ps-20">
-                                <div>
+                            <img src={prod.imageSrc} alt={prod.name} className="mx-auto md:h-6/12 md:w-6/12 h-full w-full object-cover object-center"/>
+                            <div id="ProductData" className="py-0 px-8 mt-5 lg:ps-20">
+                                <div className="header-product-data">
                                     <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{prod.name}</h1>
                                     <p className="text-3xl tracking-tight text-gray-900 mt-3">{prod.price}</p>
                                 </div>
-                                <div className="flex mt-3 md:flex-row flex-col">
-                                    <a href={wpLink(prod.name)} target="_blank" rel="noopener noreferrer" type="button" className="rounded-md bg-gray-950 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-600 flex justify-center align-middle md:max-w-fit w-full md:mr-3 md:mb-0 mb-3">
+                                <div className="cta-wrapper flex mt-3 md:flex-row flex-col">
+                                    <a href={wpLink(prod.name)} target="_blank" rel="noopener noreferrer" type="button" className="rounded-md bg-indigo-500 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-600 flex justify-center align-middle md:max-w-fit w-full md:mr-3 md:mb-0 mb-3">
                                         <ChatBubbleLeftRightIcon className="mr-1.5 h-5 w-5 flex-shrink-0" aria-hidden="true"/>
                                         Contactar
                                     </a>
@@ -67,7 +67,7 @@ const Product = ({id}) => {
                                         Ir al catálogo
                                     </Link>
                                 </div>
-                                <div className="mt-10">
+                                <div className="details-product-date mt-10">
                                     <h2 className="text-sm font-medium text-gray-900">Detalles</h2>
                                     <div className="mt-4 space-y-6">
                                         <p className="text-sm text-gray-600">{prod.details}</p>

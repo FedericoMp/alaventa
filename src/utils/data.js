@@ -1,40 +1,30 @@
-// Mock data
+// Images
+import alvProd1 from "../assets/alv-prod-1.webp"
+import alvProd2 from "../assets/alv-prod-2.webp"
+import alvProd3 from "../assets/alv-prod-3.webp"
+
+// Data
 const products = [
   {
     id: 1,
-    name: 'Basic Tee 1',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: "Front of men's Basic Tee in dark grey.",
-    details: "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming 'Charcoal Gray' limited release.",
-    price: '$35',
-    color: 'Dark grey',
+    name: 'PS4 Slim 1tb',
+    imageSrc: alvProd1,
+    details: "Play Station 4 Slim de 1tb, con 2 juegos: Horizon y Gran Turismo, incluche 1 joystick.",
+    price: '$450.000'
   },
   {
     id: 2,
-    name: 'Basic Tee 2',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: "Front of men's Basic Tee in black.",
-    details: "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming 'Charcoal Gray' limited release.",
-    price: '$45',
-    color: 'Black',
+    name: 'Thonet & Vander Rastel',
+    imageSrc: alvProd2,
+    details: "Equipo de audio Thonet & Vander, modelo Rastel, incluye el control remoto, 2 parlates y 1 woofer.",
+    price: '$250.000'
   },
   {
     id: 3,
-    name: 'Basic Tee 3',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: "Front of men's Basic Tee in grey.",
-    details: "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming 'Charcoal Gray' limited release.",
-    price: '$25',
-    color: 'Grey',
-  },
-  {
-    id: 4,
-    name: 'Basic Tee 4',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: "Front of men's Basic Tee in light black.",
-    details: "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming 'Charcoal Gray' limited release.",
-    price: '$15',
-    color: 'Light black',
+    name: 'Silla Gamer Good Game',
+    imageSrc: alvProd3,
+    details: "Silla gamer de eco-cuero, inclinación regulable, almohadilla cervical.",
+    price: '$230.000'
   }
 ]
 export default products

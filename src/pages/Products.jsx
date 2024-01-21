@@ -15,7 +15,7 @@ const Products = () => {
             </Helmet>
             <section id="Products" className="flex flex-col h-full">
                 <Header/>
-                <div className="flex-1 flex flex-col justify-start items-center max-w-screen-lg lg:mx-auto">
+                <div className="bg-gradient-to-b from-indigo-200 flex-1 flex flex-col justify-start items-center max-w-screen-lg lg:mx-auto">
                     <InfoBanner/>
                     <ProductsGrid products={products}/>
                 </div>
