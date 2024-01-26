@@ -10,6 +10,7 @@ const InfoBanner = ({productPage}) => {
                     <li className="text-gray-400"><span className="text-gray-600">Consultar haciendo click en "contactar"</span></li>
                 </ul>
             </div>
+            <p className="mt-3">Todos los precios son negociables 😁</p>
         </section>
     )
 }

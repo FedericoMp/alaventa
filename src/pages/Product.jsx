@@ -36,7 +36,7 @@ const Product = ({id}) => {
         setTimeout(() => {
             filterProduct()
             setLoad(false)
-        }, 800)
+        }, 100)
     }, [])
 
     return (

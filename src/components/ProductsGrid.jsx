@@ -9,7 +9,7 @@ const ProductsGrid = ({products}) => {
     useEffect(() => {
         setTimeout(() => {
             setLoad(false)
-        }, 800)
+        }, 100)
     }, [])
 
     return (
@@ -22,7 +22,7 @@ const ProductsGrid = ({products}) => {
                         ))}
                     </div>
                   </div>
-                : <div className="flex flex-col justify-center items-center w-full h-full">
+                : <div className="flex flex-col justify-center items-center w-full h-full minw-1024">
                     <Loader/>
                   </div> 
             }
