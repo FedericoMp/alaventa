@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import InfoBanner from "../components/InfoBanner"
 import ProductsGrid from "../components/ProductsGrid"
 import products from "../utils/data"
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet-async"
 
 const Products = () => {
     return (

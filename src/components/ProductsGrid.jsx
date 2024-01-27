@@ -9,7 +9,7 @@ const ProductsGrid = ({products}) => {
     useEffect(() => {
         setTimeout(() => {
             setLoad(false)
-        }, 100)
+        }, 300)
     }, [])
 
     return (

@@ -6,7 +6,7 @@ import InfoBanner from "../components/InfoBanner"
 import products from "../utils/data"
 import { useLocation, Link } from "wouter"
 import { ArrowLongLeftIcon, ChatBubbleLeftRightIcon } from "@heroicons/react/20/solid"
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet-async"
 
 const Product = ({id}) => {
 
@@ -36,7 +36,7 @@ const Product = ({id}) => {
         setTimeout(() => {
             filterProduct()
             setLoad(false)
-        }, 100)
+        }, 300)
     }, [])
 
     return (
