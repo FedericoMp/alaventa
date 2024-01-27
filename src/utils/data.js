@@ -20,9 +20,9 @@ const products = [
     price: '$400.000'
   },
   {
-    id: 8,
+    id: 2,
     name: 'Monitor LG',
-    imageSrc: alvProd8,
+    imageSrc: alvProd2,
     details: 'Full HD, 22 pulgadas, con entrada HDMI (se puede usar como TV)',
     price: '$90.000'
   },
@@ -56,28 +56,28 @@ const products = [
   },
   {
     id: 7,
-    name: 'Zapatillas Adidas Forum Mid',
+    name: 'Adidas Forum Mid',
     imageSrc: alvProd7,
-    details: 'De cuero con cordones, y apliques de abrojo. Numero 41 argentina, 9 USA',
+    details: 'De cuero con cordones y apliques de abrojo. Numero 41 argentina, 9 USA',
     price: '$90.000'
   },
   {
-    id: 9,
+    id: 8,
     name: 'Escritorio',
-    imageSrc: alvProd9,
+    imageSrc: alvProd8,
     details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas:150cm de largo x 60cm de ancho x 75cm de alto',
     price: '$120.000'
   },
   {
-    id: 2,
+    id: 9,
     name: 'Thonet & Vander Rastel',
-    imageSrc: alvProd2,
+    imageSrc: alvProd9,
     details: 'Equipo de audio Thonet & Vander, modelo Rätsel woofer, incluye el control remoto, 2 parlates y 1 woofer.',
     price: '$130.000'
   },
   {
     id: 10,
-    name: 'Impresora HP Desk Jet 3635',
+    name: 'HP Desk Jet 3635',
     imageSrc: alvProd10,
     details: 'Imprime, escanea, copia, y se puede conectar a WiFi',
     price: '$70.000'
