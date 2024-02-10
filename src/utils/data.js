@@ -87,8 +87,8 @@ const products = [
     id: 12,
     name: 'Bicicleta R28',
     imageSrc: alvProd12,
-    details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel.',
-    price: '$170.000'
+    details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
+    price: '$190.000'
   }
 ]
 export default products
