@@ -1,5 +1,4 @@
 // Images
-import alvProd1 from '../assets/alv-prod-1.webp'
 import alvProd2 from '../assets/alv-prod-2.webp'
 import alvProd3 from '../assets/alv-prod-3.webp'
 import alvProd4 from '../assets/alv-prod-4.webp'
@@ -9,16 +8,11 @@ import alvProd7 from '../assets/alv-prod-7.webp'
 import alvProd8 from '../assets/alv-prod-8.webp'
 import alvProd9 from '../assets/alv-prod-9.webp'
 import alvProd10 from '../assets/alv-prod-10.webp'
+import alvProd11 from '../assets/alv-prod-11.webp'
+import alvProd12 from '../assets/alv-prod-12.webp'
 
 // Data
 const products = [
-  {
-    id: 1,
-    name: 'PS4 Slim 1tb',
-    imageSrc: alvProd1,
-    details: 'Play Station 4 Slim de 1tb, con 3 juegos: Horizon, Gran Turismo, Rainbow Six, incluye 1 joystick.',
-    price: '$400.000'
-  },
   {
     id: 2,
     name: 'Monitor LG',
@@ -73,7 +67,7 @@ const products = [
     name: 'Thonet & Vander Rastel',
     imageSrc: alvProd9,
     details: 'Equipo de audio Thonet & Vander, modelo Rätsel woofer, incluye el control remoto, 2 parlates y 1 woofer.',
-    price: '$130.000'
+    price: '$150.000'
   },
   {
     id: 10,
@@ -81,6 +75,20 @@ const products = [
     imageSrc: alvProd10,
     details: 'Imprime, escanea, copia, y se puede conectar a WiFi',
     price: '$70.000'
+  },
+  {
+    id: 11,
+    name: 'Set de Entrenamiento',
+    imageSrc: alvProd11,
+    details: 'Incluye: 2 barras para mancuernas, 1 barra grande y 6 topes. Discos: 2.5kg x4, 5kg x4, 10kg x2. Peso total en discos: 50kg. También se incluye: 4 colchonetas, 6 conos, 4 sogas, 2 mancuernas de 5kg.',
+    price: '$140.000'
+  },
+  {
+    id: 12,
+    name: 'Bicicleta R28',
+    imageSrc: alvProd12,
+    details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel.',
+    price: '$170.000'
   }
 ]
 export default products
