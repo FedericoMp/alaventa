@@ -28,7 +28,7 @@ const Product = ({id}) => {
     }
 
     const wpLink = (prodName) => {
-        const uri = `https://api.whatsapp.com/send?phone=+541137010615&text=Hola,%20ví%20un%20producto%20en%20A%20la%20Venta%20y%20quiero%20más%20info%20sobre:%20${prodName.replaceAll(' ',"%20")}`
+        const uri = `https://api.whatsapp.com/send?phone=+541139333972&text=Hola,%20ví%20un%20producto%20en%20A%20la%20Venta%20y%20quiero%20más%20info%20sobre:%20${prodName.replaceAll(' ',"%20")}`
         return uri
     }
 
@@ -58,7 +58,7 @@ const Product = ({id}) => {
                                     <p className="text-3xl tracking-tight text-gray-900 mt-3">{prod.price}</p>
                                 </div>
                                 <div className="cta-wrapper flex mt-3 md:flex-row flex-col">
-                                    <a href={wpLink(prod.name)} target="_blank" rel="noopener noreferrer" type="button" className="rounded-md bg-indigo-500 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-600 flex justify-center align-middle md:max-w-fit w-full md:mr-3 md:mb-0 mb-3">
+                                    <a href={wpLink(prod.name)} target="_blank" rel="noopener noreferrer" type="button" className="rounded-md bg-teal-500 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-teal-600 flex justify-center align-middle md:max-w-fit w-full md:mr-3 md:mb-0 mb-3">
                                         <ChatBubbleLeftRightIcon className="mr-1.5 h-5 w-5 flex-shrink-0" aria-hidden="true"/>
                                         Contactar
                                     </a>
