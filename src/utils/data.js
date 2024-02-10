@@ -10,6 +10,7 @@ import alvProd9 from '../assets/alv-prod-9.webp'
 import alvProd10 from '../assets/alv-prod-10.webp'
 import alvProd11 from '../assets/alv-prod-11.webp'
 import alvProd12 from '../assets/alv-prod-12.webp'
+import alvProd13 from '../assets/alv-prod-13.webp'
 
 // Data
 const products = [
@@ -89,6 +90,13 @@ const products = [
     imageSrc: alvProd12,
     details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
     price: '$190.000'
+  },
+  {
+    id: 13,
+    name: 'Volturno',
+    imageSrc: alvProd13,
+    details: 'Cafetera Volturno clásica de 9 pocillos con estructura de aluminio.',
+    price: '$50.000'
   }
 ]
 export default products
