@@ -18,7 +18,7 @@ const products = [
     id: 2,
     name: 'Monitor LG',
     imageSrc: alvProd2,
-    details: 'Full HD, 22 pulgadas, con entrada HDMI (se puede usar como TV)',
+    details: 'Full HD, 22 pulgadas, con entrada HDMI (se puede usar como TV).',
     price: '$90.000'
   },
   {
@@ -32,35 +32,35 @@ const products = [
     id: 4,
     name: 'Balance board',
     imageSrc: alvProd4,
-    details: 'Tabla de madera con rodillo de Yoga',
+    details: 'Tabla de madera con rodillo de Yoga.',
     price: '$20.000'
   },
   {
     id: 5,
     name: 'Guitarra criolla',
     imageSrc: alvProd5,
-    details: 'Modelo Antigüa Casa Nuñez',
+    details: 'Modelo Antigüa Casa Nuñez.',
     price: '$150.000'
   },
   {
     id: 6,
     name: 'Pizarra',
     imageSrc: alvProd6,
-    details: 'De material metálico, con marco negro inyectado. Mide 60cm x 80cm',
+    details: 'De material metálico, con marco negro inyectado. Mide 60cm x 80cm.',
     price: '$10.000'
   },
   {
     id: 7,
     name: 'Adidas Forum Mid',
     imageSrc: alvProd7,
-    details: 'De cuero con cordones y apliques de abrojo. Numero 41 argentina, 9 USA',
+    details: 'De cuero con cordones y apliques de abrojo. Numero 41 argentina, 9 USA.',
     price: '$90.000'
   },
   {
     id: 8,
     name: 'Escritorio',
     imageSrc: alvProd8,
-    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas:150cm de largo x 60cm de ancho x 75cm de alto',
+    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas:150cm de largo x 60cm de ancho x 75cm de alto.',
     price: '$120.000'
   },
   {
@@ -74,7 +74,7 @@ const products = [
     id: 10,
     name: 'HP Desk Jet 3635',
     imageSrc: alvProd10,
-    details: 'Imprime, escanea, copia, y se puede conectar a WiFi',
+    details: 'Imprime, escanea, copia, y se puede conectar a WiFi.',
     price: '$70.000'
   },
   {
@@ -89,7 +89,7 @@ const products = [
     name: 'Bicicleta R28',
     imageSrc: alvProd12,
     details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
-    price: '$190.000'
+    price: '$210.000'
   },
   {
     id: 13,
