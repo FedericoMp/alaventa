@@ -2,14 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --verdigris: #28AFB0;
+    --prusianblue: #102E4A;
+}
+
 html, body, #root {
     height: 100%;
 }
 
 .loader {
-    border: 6px solid #b3b4f2;
+    border: 6px solid var(--prusianblue);
     border-radius: 50%;
-    border-top: 6px solid #6366f1;
+    border-top: 6px solid var(--verdigris);
     width: 60px;
     height: 60px;
     -webkit-animation: spin 2s linear infinite;
@@ -32,4 +37,8 @@ html, body, #root {
     #ProductsGrid > .minw-1024 {
         min-width: 1024px;
     }
+}
+
+svg.shop-icon {
+    opacity: .2;
 }
