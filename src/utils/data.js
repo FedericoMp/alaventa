@@ -16,18 +16,11 @@ import alvProd14 from '../assets/alv-prod-14.webp'
 // Data
 const products = [
   {
-    id: 2,
-    name: 'Monitor LG',
-    imageSrc: alvProd2,
-    details: 'Full HD, 22 pulgadas, con entrada HDMI (se puede usar como TV).',
+    id: 7,
+    name: 'Adidas Forum Mid',
+    imageSrc: alvProd7,
+    details: 'De cuero con cordones y apliques de abrojo. Numero 41 argentina, 9 USA.',
     price: '$90.000'
-  },
-  {
-    id: 3,
-    name: 'Silla Gamer Good Game',
-    imageSrc: alvProd3,
-    details: 'Silla gamer de eco-cuero, inclinación regulable, almohadilla lumbar regulable y cabezal.',
-    price: '$120.000'
   },
   {
     id: 4,
@@ -37,11 +30,46 @@ const products = [
     price: '$20.000'
   },
   {
+    id: 14,
+    name: 'Batidora Smartlife',
+    imageSrc: alvProd14,
+    details: 'Batidora de pie, cuenta con 5 velocidades. Incluye: juego de batidores, ganchos amasadores, bowl inoxidable rotativo de 3.4 lts. Se puede utilizar sin base, de forma manual.',
+    price: '$30.000'
+  },
+  {
+    id: 12,
+    name: 'Bicicleta R28',
+    imageSrc: alvProd12,
+    details: 'Marca Stark, rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
+    price: '$210.000'
+  },
+  {
+    id: 8,
+    name: 'Escritorio',
+    imageSrc: alvProd8,
+    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas: 150cm de largo x 60cm de ancho x 75cm de alto.',
+    price: '$120.000'
+  },
+  {
     id: 5,
     name: 'Guitarra criolla',
     imageSrc: alvProd5,
     details: 'Excelente guitarra criolla antigua casa nuñez, en impecable estado, con funda; instrumento cómo nuevo.',
     price: '$100.000'
+  },
+  {
+    id: 10,
+    name: 'HP Desk Jet 3635',
+    imageSrc: alvProd10,
+    details: 'Imprime, escanea, copia, y se puede conectar a WiFi.',
+    price: '$70.000'
+  },
+  {
+    id: 2,
+    name: 'Monitor LG',
+    imageSrc: alvProd2,
+    details: 'Full HD, 22 pulgadas, con entrada HDMI (se puede usar como TV).',
+    price: '$90.000'
   },
   {
     id: 6,
@@ -51,17 +79,17 @@ const products = [
     price: '$10.000'
   },
   {
-    id: 7,
-    name: 'Adidas Forum Mid',
-    imageSrc: alvProd7,
-    details: 'De cuero con cordones y apliques de abrojo. Numero 41 argentina, 9 USA.',
-    price: '$90.000'
+    id: 11,
+    name: 'Set de Entrenamiento',
+    imageSrc: alvProd11,
+    details: 'Incluye: 2 barras para mancuernas, 1 barra grande y 6 topes. Discos: 2.5kg x4, 5kg x4, 10kg x2. Peso total en discos: 50kg. También se incluye: 1 banda elastica resistencia baja, 1 rueda abdominal, 4 colchonetas, 5 conos, 4 sogas, 2 mancuernas de 1kg, 2 mancuernas de 3kg.',
+    price: '$150.000'
   },
   {
-    id: 8,
-    name: 'Escritorio',
-    imageSrc: alvProd8,
-    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas: 150cm de largo x 60cm de ancho x 75cm de alto.',
+    id: 3,
+    name: 'Silla Gamer Good Game',
+    imageSrc: alvProd3,
+    details: 'Silla gamer de eco-cuero, inclinación regulable, almohadilla lumbar regulable y cabezal.',
     price: '$120.000'
   },
   {
@@ -72,39 +100,12 @@ const products = [
     price: '$150.000'
   },
   {
-    id: 10,
-    name: 'HP Desk Jet 3635',
-    imageSrc: alvProd10,
-    details: 'Imprime, escanea, copia, y se puede conectar a WiFi.',
-    price: '$70.000'
-  },
-  {
-    id: 11,
-    name: 'Set de Entrenamiento',
-    imageSrc: alvProd11,
-    details: 'Incluye: 2 barras para mancuernas, 1 barra grande y 6 topes. Discos: 2.5kg x4, 5kg x4, 10kg x2. Peso total en discos: 50kg. También se incluye: 1 banda elastica resistencia baja, 1 rueda abdominal, 4 colchonetas, 5 conos, 4 sogas, 2 mancuernas de 1kg, 2 mancuernas de 3kg.',
-    price: '$150.000'
-  },
-  {
-    id: 12,
-    name: 'Bicicleta R28',
-    imageSrc: alvProd12,
-    details: 'Marca Stark, rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
-    price: '$210.000'
-  },
-  {
     id: 13,
     name: 'Volturno',
     imageSrc: alvProd13,
     details: 'Cafetera Volturno clásica de 9 pocillos con estructura de aluminio.',
     price: '$45.000'
   },
-  {
-    id: 14,
-    name: 'Batidora Smartlife',
-    imageSrc: alvProd14,
-    details: 'Batidora de pie, cuenta con 5 velocidades. Incluye: juego de batidores, ganchos amasadores, bowl inoxidable rotativo de 3.4 lts. Se puede utilizar sin base, de forma manual.',
-    price: '$30.000'
-  }
+
 ]
 export default products
