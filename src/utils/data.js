@@ -11,6 +11,7 @@ import alvProd10 from '../assets/alv-prod-10.webp'
 import alvProd11 from '../assets/alv-prod-11.webp'
 import alvProd12 from '../assets/alv-prod-12.webp'
 import alvProd13 from '../assets/alv-prod-13.webp'
+import alvProd14 from '../assets/alv-prod-14.webp'
 
 // Data
 const products = [
@@ -32,15 +33,15 @@ const products = [
     id: 4,
     name: 'Balance board',
     imageSrc: alvProd4,
-    details: 'Tabla de madera con rodillo de Yoga.',
+    details: 'Tabla con topes construida en madera, con rodillo de Yoga.',
     price: '$20.000'
   },
   {
     id: 5,
     name: 'Guitarra criolla',
     imageSrc: alvProd5,
-    details: 'Modelo Antigüa Casa Nuñez.',
-    price: '$150.000'
+    details: 'Excelente guitarra criolla antigua casa nuñez, en impecable estado, con funda; instrumento cómo nuevo.',
+    price: '$100.000'
   },
   {
     id: 6,
@@ -60,7 +61,7 @@ const products = [
     id: 8,
     name: 'Escritorio',
     imageSrc: alvProd8,
-    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas:150cm de largo x 60cm de ancho x 75cm de alto.',
+    details: 'Mesa de madera con base de hierro y cuenta con soporte para cableado. Medidas: 150cm de largo x 60cm de ancho x 75cm de alto.',
     price: '$120.000'
   },
   {
@@ -81,14 +82,14 @@ const products = [
     id: 11,
     name: 'Set de Entrenamiento',
     imageSrc: alvProd11,
-    details: 'Incluye: 2 barras para mancuernas, 1 barra grande y 6 topes. Discos: 2.5kg x4, 5kg x4, 10kg x2. Peso total en discos: 50kg. También se incluye: 4 colchonetas, 6 conos, 4 sogas, 2 mancuernas de 5kg.',
-    price: '$140.000'
+    details: 'Incluye: 2 barras para mancuernas, 1 barra grande y 6 topes. Discos: 2.5kg x4, 5kg x4, 10kg x2. Peso total en discos: 50kg. También se incluye: 1 banda elastica resistencia baja, 1 rueda abdominal, 4 colchonetas, 5 conos, 4 sogas, 2 mancuernas de 1kg, 2 mancuernas de 3kg.',
+    price: '$150.000'
   },
   {
     id: 12,
     name: 'Bicicleta R28',
     imageSrc: alvProd12,
-    details: 'Rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
+    details: 'Marca Stark, rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
     price: '$210.000'
   },
   {
@@ -96,7 +97,14 @@ const products = [
     name: 'Volturno',
     imageSrc: alvProd13,
     details: 'Cafetera Volturno clásica de 9 pocillos con estructura de aluminio.',
-    price: '$50.000'
+    price: '$45.000'
+  },
+  {
+    id: 14,
+    name: 'Batidora Smartlife',
+    imageSrc: alvProd14,
+    details: 'Batidora de pie, cuenta con 5 velocidades. Incluye: juego de batidores, ganchos amasadores, bowl inoxidable rotativo de 3.4 lts. Se puede utilizar sin base, de forma manual.',
+    price: '$30.000'
   }
 ]
 export default products
