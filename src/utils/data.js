@@ -9,7 +9,6 @@ import alvProd8 from '../assets/alv-prod-8.webp'
 import alvProd9 from '../assets/alv-prod-9.webp'
 import alvProd10 from '../assets/alv-prod-10.webp'
 import alvProd11 from '../assets/alv-prod-11.webp'
-import alvProd12 from '../assets/alv-prod-12.webp'
 import alvProd13 from '../assets/alv-prod-13.webp'
 import alvProd14 from '../assets/alv-prod-14.webp'
 
@@ -35,13 +34,6 @@ const products = [
     imageSrc: alvProd14,
     details: 'Batidora de pie, cuenta con 5 velocidades. Incluye: juego de batidores, ganchos amasadores, bowl inoxidable rotativo de 3.4 lts. Se puede utilizar sin base, de forma manual.',
     price: '$30.000'
-  },
-  {
-    id: 12,
-    name: 'Bicicleta R28',
-    imageSrc: alvProd12,
-    details: 'Marca Stark, rodado 28, 7 velocidades shimano, frenos vbrakes delanteros y traseros, cuadro cromoly ultra liviano y asiento de gel. También incluye: 2 lingas, 1 reforzada y 1 con contraseña, kit de reparación (parches), 1 inflador, 2 luces led (blanca y roja), casco y bolso de herramientas.',
-    price: '$210.000'
   },
   {
     id: 8,
