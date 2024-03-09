@@ -10,7 +10,6 @@ import alvProd9 from '../assets/alv-prod-9.webp'
 import alvProd10 from '../assets/alv-prod-10.webp'
 import alvProd11 from '../assets/alv-prod-11.webp'
 import alvProd13 from '../assets/alv-prod-13.webp'
-import alvProd14 from '../assets/alv-prod-14.webp'
 
 // Data
 const products = [
@@ -27,13 +26,6 @@ const products = [
     imageSrc: alvProd4,
     details: 'Tabla con topes construida en madera, con rodillo de Yoga.',
     price: '$20.000'
-  },
-  {
-    id: 14,
-    name: 'Batidora Smartlife',
-    imageSrc: alvProd14,
-    details: 'Batidora de pie, cuenta con 5 velocidades. Incluye: juego de batidores, ganchos amasadores, bowl inoxidable rotativo de 3.4 lts. Se puede utilizar sin base, de forma manual.',
-    price: '$30.000'
   },
   {
     id: 8,
